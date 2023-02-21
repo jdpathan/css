@@ -1,0 +1,80 @@
+ .hello{
+    border: solid 5px red;
+    height: 400px;
+    width: 400px;
+    margin: 70px;
+    box-shadow: 20px 10px 10px;
+    border-radius: 400px;
+}
+.hello2{
+    font-size: 50px;
+    text-shadow: 10px 10px 10px green;
+    text-align: center;
+}
+/* .abc{
+    border: dotted 5px purple;
+    height: 200px;
+    width: 200px;
+/* margin: 100px;
+box-shadow: 10px 10px 10px;
+border-radius: 30px;
+}
+.xyz{
+    font-size: 60px;
+    text-shadow: 10px 10px 10px blue;
+    text-align: center;
+} */ 
+.main{
+    height: 400px;
+    width: 400px;
+    border: solid 5px blue;
+    background-color: yellow;
+    position: relative;
+}
+.child1{
+    height: 50px;
+    width: 50px;
+    border: solid 10px;
+    float: left;
+    background-color: aqua;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    
+}
+.child2{
+    height: 50px;
+    width: 50px;
+    border: solid 10px;
+    float: left;
+    background-color: blue;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    top: 200px;
+    right: 200px;
+}
+.child3{
+    height: 50px;
+    width: 50px;
+    border: solid 10px;
+    float: left;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    bottom: 200px;
+    right: 200px;
+}
+.child4{
+    height: 50px;
+    width: 50px;
+    border: solid 10px;
+    float: left;
+    background-color: brown;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    bottom: 200px;
+    left: 200px;
+}
